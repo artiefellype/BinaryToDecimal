@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>BinaryToDecimal</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="maxbox">
+            <div class="areaONE">
+                <h1>Binary<span>To</span>Decimal</h1>
+                    <div class="convert">
+                        
+                        <div class="input">
+                        
+                            <input  class="inp"id="bin" type="text" placeholder="Digite um binário">
+                            
+                            <button class="button" onclick="BtoD()">Converter</button>
+                            
+                            
+                        </div>    
+        
+                        <div class="tx" id="tx">
+
+                        </div>
+                    </div>    
+
+
+
+            </div>
+            <div class="areaSEC">
+                <h1>Decimal<span>To</span>Binary</h1>
+                    <div class="convert">
+                        
+                        <div class="input">
+                        
+                            <input class="inp"id="dec" type="text" placeholder="Digite um decimal">
+                            
+                            <button class="button" onclick="DtoB()">Converter</button>
+                            
+                            
+                        </div>    
+        
+                        <div class="tx" id="tx2">
+
+                        </div>
+                        
+                    </div>
+
+                
+            </div>
+
+        
+        </div>
+        
+        <p>&copyArtie_</p>  
+    </div> 
+      
+             
+    <script src="./assets/js/app.js"></script>
+</body>
+  
+</html>
