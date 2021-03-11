@@ -1,2 +1,2 @@
 # BinaryToDecimal
- webapp que converte numeros binarios em decimais e vice versa
+<p>Conversor simples entre binários e decimais em um ambiente com UI design</p>
