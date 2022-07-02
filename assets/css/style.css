@@ -158,6 +158,7 @@ span{
     outline: 0;
     font-size: 20px;
     padding: 7px 0;
+    text-align: center;
     background: transparent;
     transition:  0.2s;
   
