@@ -6,14 +6,14 @@ body{
 }
 
 .container{
-   width: 100vw;
-   height: 100vh;
+    width: 100%;
    background-color: #330033;
    background-image: linear-gradient(to right, #C7BED9 0%, #948AAC 100%);
    display: flex;
    flex-direction: row;
    justify-content: center;
    align-items: center;
+   height: 100vh;
 }
 
 .container p{
@@ -28,14 +28,27 @@ body{
 
 .maxbox{
     display: flex;
+    height: 70vh;
     text-align: center;
-    justify-content: center;
-    align-items: stretch;
+    justify-content: space-between;
     align-content: center;
-    width: 70%;
-    height: 85%;
+  
 
+}
 
+@media screen and (max-width: 768px) {
+    .maxbox{
+        flex-direction: column;
+    }
+    .container {
+        width: 100%;
+    }
+    .areaONE{
+        border-radius: 30px;
+    }
+    .areaSEC {
+        border-radius: 30px;
+    }
 }
 span{
     
@@ -43,12 +56,13 @@ span{
 }
 
 .areaONE{
-    display: grid;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    height: 100%;
-    width: 100%;
+
     background: #dbdced;
 }
 .areaONE .button{
@@ -63,12 +77,13 @@ span{
 }
 .areaSEC{
 
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    height: 100%;
-    width: 100%;
+   
     background: #232637;
 
 }
@@ -143,6 +158,7 @@ span{
     outline: 0;
     font-size: 20px;
     padding: 7px 0;
+    text-align: center;
     background: transparent;
     transition:  0.2s;
   
